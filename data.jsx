@@ -131,3 +131,25 @@ export const blogData = [
         content: 'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'
     }
 ]
+export const AboutProcessData = [
+    {
+        id: '1',
+        title: 'Planning',
+        Description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+    },
+    {
+        id: '2',
+        title: 'Conception',
+        Description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+    },
+    {
+        id: '3',
+        title: 'Design',
+        Description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+    },
+    {
+        id: '4',
+        title: 'Development',
+        Description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+    }
+]

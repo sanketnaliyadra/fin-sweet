@@ -120,7 +120,7 @@ export const CopyrightWrapper = styled.p`
     font-size: 18px;
     font-weight: 500;
     ${maxWidth(ScreenSize.TabletLandscape,`display: flex;font-size: 14px; justify-content: center; margin-bottom: 8px`)}
-    ${maxWidth(ScreenSize.Phone,`margin-top:8px; color: white; font-size: 18px;`)}
+    ${maxWidth(ScreenSize.Phone,`margin-top:8px; color: white; font-size: 16px; font-weight: 400`)}
 
 `
 export const FooterNavigationWrapper = styled.div`
@@ -132,8 +132,13 @@ export const NavList = styled.ul`
     ${maxWidth(ScreenSize.Tablet,`flex-wrap: wrap`)}
 `
 export const ListItem = styled.li`
+    a{
+        text-decoration: none;
+        color: var(--font-color);
+    }
     cursor: pointer;
     list-style: none;
     padding: 0 16px;
-    ${maxWidth(ScreenSize.Tablet,`color: #fff; font-size: 18px; line-height: 2.5`)}
+    ${maxWidth(ScreenSize.Tablet,`color: #fff; font-size: 18px; line-height: 2`)}
+    ${maxWidth(ScreenSize.Phone,`color: #fff; font-size: 16px; font-weight: 300 line-height: 2`)}
 `

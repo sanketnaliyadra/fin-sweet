@@ -51,6 +51,9 @@
     }
 }
 @media screen and (max-width: 576px) {
+    .NavListContainer button{
+        padding: 8px 12px;
+    }
     .navMenu{
         width: 100%;
     }

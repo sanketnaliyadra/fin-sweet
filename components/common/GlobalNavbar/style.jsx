@@ -3,6 +3,9 @@ import { maxWidth } from "../../../utils/responsive/maxWidth";
 import { ScreenSize } from "../../../utils/responsive/ScreenSize";
 
 export const GlobalNavbarContainer = styled.div`
+    position: sticky;
+    top: 0;
+    z-index: 999;
     background:  var(--finPrimary);
     width: 100%;
     ${maxWidth(
@@ -26,7 +29,13 @@ export const NavbarWrapper = styled.div`
         }
         `
     )};
-    `
+    ${maxWidth(ScreenSize.Phone,`
+    span {
+        margin-left: 0px !important;
+    }
+    `)}
+
+`;
 export const MobileNav = styled.div`
     display: none;
     ${maxWidth(ScreenSize.Tablet, `display: inline-block; color: white; font-size: 26px; padding: 0 16px;
@@ -42,9 +51,14 @@ export const MobileNav = styled.div`
 //     ${maxWidth(ScreenSize.TabletLarge,`padding-right: 0`)}
 // `
 export const NavListItem = styled.li`
+    a{
+        text-decoration: none;
+        color: var(--white);
+    }
     padding: 0 14px;
-    color: var(--white);
+    cursor: pointer;
     ${maxWidth(ScreenSize.Tablet,`color: #fff; padding: 6px 0; font-size: 20px`)}
+    ${maxWidth(ScreenSize.Phone,`color: #fff; padding:0; font-size: 18px`)}
 `
 
 export const NavButton = styled.button`
@@ -54,4 +68,5 @@ export const NavButton = styled.button`
     padding: 12px 30px;
     border: 1px solid var(--Btn-border);
     border-radius: 24px;
+    cursor: pointer;
 `

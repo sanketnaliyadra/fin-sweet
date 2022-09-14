@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { BsFacebook } from 'react-icons/bs'
 import { BsInstagram } from 'react-icons/bs'
@@ -45,12 +46,12 @@ const Footer = () => {
                         <CopyrightWrapper>Copyright 2022, Finsweet.com</CopyrightWrapper>
                         <FooterNavigationWrapper>
                             <NavList>
-                                <ListItem>Home</ListItem>
-                                <ListItem>About us</ListItem>
-                                <ListItem>Features</ListItem>
-                                <ListItem>Pricing</ListItem>
-                                <ListItem>FAQ</ListItem>
-                                <ListItem>Blog</ListItem>
+                                <ListItem><Link href='/'><a>Home</a></Link></ListItem>
+                                <ListItem><Link href='about-us'><a>About us</a></Link></ListItem>
+                                <ListItem><Link href=''><a>Features</a></Link></ListItem>
+                                <ListItem><Link href=''><a>Pricing</a></Link></ListItem>
+                                <ListItem><Link href=''><a>FAQ</a></Link></ListItem>
+                                <ListItem><Link href=''><a>Blog</a></Link></ListItem>
                             </NavList>
                         </FooterNavigationWrapper>
                     </FooterNavInner>

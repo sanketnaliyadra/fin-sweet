@@ -12,7 +12,7 @@ export const ProjectTitleWrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     margin-bottom: 32px;
-   ${maxWidth(ScreenSize.Phone,`justify-content: space-around`)}
+   ${maxWidth(ScreenSize.Phone,`justify-content: space-between; align-item: baseline`)}
 `
 export const ProjectTitleHeading = styled.h1`
     font-size: 40px;

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import CustomArrBtn from '../../common/CustomArrowBtn'
 import { HeroBgImage, HeroBtnWrapper, HeroDetailInner, HeroDetailWrapper, HeroInnerContainer, HeroSectionContainer, HeroSectionHeading, HeroSubHeading, HeroViewPriceBtn, HeroViewWorkBtn } from './style'
+
 const HeroSection = () => {
     return (
         <HeroSectionContainer>
@@ -13,7 +14,7 @@ const HeroSection = () => {
                             <HeroSubHeading>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</HeroSubHeading>
                             <HeroBtnWrapper>
                                 <HeroViewWorkBtn>View our work</HeroViewWorkBtn>
-                                <CustomArrBtn title='View Pricing' color='#ffffff'/>
+                                <CustomArrBtn title='View Pricing' color='#ffffff' />
                             </HeroBtnWrapper>
                         </HeroDetailInner>
                     </HeroDetailWrapper>

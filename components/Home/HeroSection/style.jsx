@@ -4,7 +4,7 @@ import { minWidth } from "../../../utils/responsive/maxWidth";
 import { ScreenSize } from "../../../utils/responsive/ScreenSize";
 
 export const HeroSectionContainer = styled.div`
-    display: flex;
+    /* display: flex; */
     width: 100%;
     background: var(--finPrimary);
 `
@@ -12,7 +12,7 @@ export const HeroInnerContainer = styled.div`
     display: flex;
     padding: 110px 0;
     ${maxWidth(ScreenSize.TabletLandscape, `padding: 70px 0`)}
-    ${maxWidth(ScreenSize.Phone, `flex-direction: column; padding: 50px 0;`)}
+    ${maxWidth(ScreenSize.Phone, `flex-direction: column; padding: 40px 0;`)}
 `
 export const HeroDetailWrapper = styled.div`
     display: flex;
@@ -26,7 +26,7 @@ export const HeroDetailInner = styled.div`
     justify-content: space-between;
     max-width: 80%;
     ${maxWidth(ScreenSize.Tablet, `max-width: 90%`)}
-    ${maxWidth(ScreenSize.Phone, `margin-bottom: 48px; padding-left: 24px; max-width: 100%;`)}
+    ${maxWidth(ScreenSize.Phone, `margin-bottom: 48px; padding-left: 18px; max-width: 100%;`)}
 `;
 
 export const HeroSectionHeading = styled.h2`
@@ -34,11 +34,13 @@ export const HeroSectionHeading = styled.h2`
     font-weight: 600;
     color: var(--white);
     ${maxWidth(ScreenSize.Tablet, `font-size: 32px; font-weight: 500; margin-bottom: 12px;`)}
+    ${maxWidth(ScreenSize.Phone, `font-size: 26px`)}
 `
 
 export const HeroSubHeading = styled.p`
     font-size: 14px;
     color: var(--white);
+    ${maxWidth(ScreenSize.Phone, `font-size: 12px`)}
 `
 export const HeroBtnWrapper = styled.div`
     display: flex;
@@ -65,7 +67,7 @@ export const HeroViewWorkBtn = styled.button`
       ${minWidth(ScreenSize.Phone, `padding: 8px 18px; margin-right: 24px`)}
     `
 )};
-    
+    ${maxWidth(ScreenSize.Phone,`padding: 8px 18px; margin-right: 20px`)}
 `
 
 

@@ -9,7 +9,7 @@ export const WorkSection = styled.div`
 export const WorkStrategyContainer = styled.div`
     display: flex;
     padding: 100px 0;
-    ${maxWidth(ScreenSize.Phone,`flex-direction: column; padding: 60px 0`)}
+    ${maxWidth(ScreenSize.Phone,`flex-direction: column; padding: 50px 0`)}
 `
 export const WorkDetailContainer = styled.div`
     flex: 40%;
@@ -28,12 +28,13 @@ export const WorkHeading  = styled.h1`
         margin-bottom: 20px;
         font-size: 40px;
     ${maxWidth(ScreenSize.Tablet,`${minWidth(ScreenSize.Phone,`font-size: 36px`)}`)}
+    ${maxWidth(ScreenSize.Phone,`font-size: 32px`)}
 `
 export const WorkSubHeading = styled.p`
     color: var(--font-color);
     opacity: 0.7;
     margin-bottom: 16px;
-    ${maxWidth(ScreenSize.Phone,`text-align: center`)}
+    ${maxWidth(ScreenSize.Phone,`text-align: center; font-size: 14px`)}
 
 `
 export const WorkContentWrapper = styled.div`
@@ -47,6 +48,7 @@ export const WorkContentTitle = styled.h2`
     font-weight: 500;
     color: var(--font-color);
     margin: 8px 0;
+    ${maxWidth(ScreenSize.Phone,`font-size: 18px`)}
 `
 export const WorkContentDetail = styled.p`
         color: var(--font-color);
