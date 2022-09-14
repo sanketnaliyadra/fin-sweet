@@ -17,10 +17,13 @@ body {
   --white: #ffffff;
   --Btn-border: #666b78;
   --btn-bg: #FCD980;
+  --font-color: #282938;
+  --container-bg: #F4F6FC;
 }
 
 .container{
   width: 100%;
+  padding: 0 15px;
 }
 
 @media screen and (min-width: 1400px) {
@@ -37,7 +40,7 @@ body {
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px){
+ @media screen and (min-width: 992px) and (max-width: 1199px){
   .container{
     max-width: 950px;
     margin: 0 auto;
@@ -45,7 +48,7 @@ body {
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
   .container{
-    max-width: 730px;
+    max-width: 760px;
     margin: 0 auto;
   }
 }
@@ -55,3 +58,4 @@ body {
     margin: 0 auto;
   }
 } */
+
