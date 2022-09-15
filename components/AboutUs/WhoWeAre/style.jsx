@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { FontNormal, FontOpacity, FontTitleHeading } from "../../../utils/fontStyle";
+import { maxWidth } from "../../../utils/responsive/maxWidth";
+import { ScreenSize } from "../../../utils/responsive/ScreenSize";
 
 export const WhoWeAreContainer = styled.div`
     display: flex;
@@ -10,6 +12,8 @@ export const AbtDescriptionSection = styled.div`
     justify-content: space-between;
     background: aliceblue;
     padding: 70px 0;
+   ${maxWidth(ScreenSize.Tablet,`padding: 50px 0;`)}
+   ${maxWidth(ScreenSize.Phone,`flex-direction: column; padding: 40px 0;`)}
 `
 export const DesLeftContainer = styled.div`
     display: flex;
@@ -17,6 +21,8 @@ export const DesLeftContainer = styled.div`
     flex: 1 0 50%;
     /* max-width: 50%; */
     padding: 0 50px;
+   ${maxWidth(ScreenSize.Tablet,`justify-content: end`)};
+   ${maxWidth(ScreenSize.Phone,`padding: 0 24px;`)};
 `
 export const WHeading = styled.p`
     ${FontTitleHeading}
@@ -24,9 +30,12 @@ export const WHeading = styled.p`
 export const WMainHeading = styled.h2`
     ${FontNormal}
     margin: 12px 0;
+   ${maxWidth(ScreenSize.Tablet,`font-size: 28px;`)}
+   ${maxWidth(ScreenSize.Phone,`font-size: 24px; margin: 8px 0;`)}
 `
 export const WSubHeading = styled.div`
     ${FontOpacity}
+   ${maxWidth(ScreenSize.Tablet,`font-size: 14px;`)}
 `
 export const DesRightContainer = styled.div`
     display: flex;
@@ -34,27 +43,36 @@ export const DesRightContainer = styled.div`
     flex: 1 0 50%;
     /* max-width: 50%; */
     padding: 0 50px;
-    justify-content: space-between;
+    justify-content: flex-end;
+   ${maxWidth(ScreenSize.Phone,`font-size: 24px; padding: 12px 24px;`)}
 `
 export const AbtBgImgWrapper = styled.div`
-    
+   ${maxWidth(ScreenSize.Phone,`margin-top: 18px`)}
 `
 export const AboutProcessContainer = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 60px 0;
+    padding: 80px 0;
+    ${maxWidth(ScreenSize.Tablet,`padding: 50px 0;`)};
+    ${maxWidth(ScreenSize.Phone,`padding: 30px 0;`)}
 `
 export const ProcessHeading = styled.h2`
     ${FontNormal}
     text-align: center;
     margin-bottom: 40px;
+    ${maxWidth(ScreenSize.Phone,`font-size: 24px; margin-bottom: 28px;`)}
 `
 export const ProcessStepContainer = styled.div`
     display: flex;
+    justify-content: space-between;
+    ${maxWidth(ScreenSize.Phone,`flex-wrap: wrap`)}
 `
 export const AbtProcessCard = styled.div`
     display: flex;
+    flex: 1 0 23%;
+    max-width: 23%;
     flex-direction: column;
+    ${maxWidth(ScreenSize.Phone,`flex: 1 0 100%; max-width: 100%; padding: 0 24px; margin-bottom: 18px;`)}
 `
 export const AbtCircle = styled.div`
     ::after{
@@ -82,7 +100,9 @@ export const ProcessTitle = styled.h4`
     font-size: 20px;
     font-weight: 500;
     color: var(--font-color);
+    ${maxWidth(ScreenSize.Phone,`margin: 12px 0`)}
 `
 export const ProcessDes = styled.p`
     ${FontOpacity};
+   ${maxWidth(ScreenSize.Tablet,`font-size: 14px;`)}
 `

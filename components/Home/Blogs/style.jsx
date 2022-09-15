@@ -21,9 +21,11 @@ export const BlogContainer = styled.div`
    ${maxWidth(ScreenSize.Phone,`flex-wrap: wrap`)}
 `
 export const BlogCard = styled.div`
-    padding: 0 24px 0 0;
      display: flex;
     flex-direction: column;
+    &:nth-child(even){
+        padding: 0 28px;
+    }
     button {
         text-align: start;
     }

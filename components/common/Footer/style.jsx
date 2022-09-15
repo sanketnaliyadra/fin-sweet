@@ -16,7 +16,7 @@ export const FooterBottomSection = styled.div`
     padding: 22px 0;
     color: var(--font-color);
     background: var(--white);
-    ${maxWidth(ScreenSize.Tablet,`background: var(--finPrimary);`)}
+    ${maxWidth(ScreenSize.Phone,`background: var(--finPrimary);`)}
 `
 export const FooterLeftContainer = styled.div`
     flex: 1;

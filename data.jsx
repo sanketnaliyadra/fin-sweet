@@ -153,3 +153,83 @@ export const AboutProcessData = [
         Description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
     }
 ]
+
+export const processMissionData = [
+    {
+        id: '1',
+        title: 'Our Mission',
+        heading: 'Inspire, Innovate, Share',
+        subHeading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        img: '/AboutUs/abt-mission.png'
+    },
+    {
+        id: '2',
+        title: 'Our Vision',
+        heading: 'Laser focus',
+        subHeading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        img: '/AboutUs/abt-vision.png'
+    },
+]
+export const abtBenefitData = [
+    {
+        image: '/home/icon6.svg',
+        title: 'Customize with ease',
+        detail: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.'
+    },
+    {
+        image: '/home/icon3.svg',
+        title: 'Perfectly Responsive',
+        detail: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.'
+    },
+    {
+        image: '/home/icon1.svg',
+        title: 'Friendly Support',
+        detail: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.'
+    }
+]
+
+export const abtBenefitImgData = [
+    {
+        img: '/AboutUs/logo1.svg'
+    },
+    {
+        img: '/AboutUs/logo2.svg'
+    },
+    {
+        img: '/AboutUs/logo3.svg'
+    },
+    {
+        img: '/AboutUs/logo4.svg'
+    },
+    {
+        img: '/AboutUs/logo5.svg'
+    }
+
+]
+
+export const teamProfileData = [
+    {
+        id: '1',
+        img: '/AboutUs/user1.png',
+        name: 'John Smith',
+        role: 'CEO'
+    },
+    {
+        id: '2',
+        img: '/AboutUs/user2.png',
+        name: 'Simon Adams',
+        role: 'CTO'
+    },
+    {
+        id: '3',
+        img: '/AboutUs/user3.png',
+        name: 'Paul Jones',
+        role: 'Design Lead'
+    },
+    {
+        id: '4',
+        img: '/AboutUs/user4.png',
+        name: 'Sara Hardin',
+        role: 'Project Manager'
+    }
+]
