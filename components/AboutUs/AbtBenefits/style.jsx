@@ -25,7 +25,7 @@ export const BenefitCardContainer = styled.div`
 `
 export const BenefitCard = styled.div`
    flex: 1 0 33%;
-   /* ${maxWidth(ScreenSize.TabletLandscape,`flex: 1 0 50%;`)} */
+   ${maxWidth(ScreenSize.Phone,`flex: 1 0 100%;`)}
 `
 export const BenefitCardInner = styled.div`
     display: flex;

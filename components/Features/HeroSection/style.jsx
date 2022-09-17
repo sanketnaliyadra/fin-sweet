@@ -3,14 +3,14 @@ import { maxWidth } from "../../../utils/responsive/maxWidth";
 import { minWidth } from "../../../utils/responsive/maxWidth";
 import { ScreenSize } from "../../../utils/responsive/ScreenSize";
 
-export const HeroSectionContainer = styled.div`
+export const FHeroSection = styled.div`
     /* display: flex; */
     width: 100%;
     background: var(--finPrimary);
 `
 export const HeroInnerContainer = styled.div`
     display: flex;
-    padding: 110px 0;
+    padding: 70px 0;
     ${maxWidth(ScreenSize.TabletLandscape, `padding: 70px 0`)}
     ${maxWidth(ScreenSize.Phone, `flex-direction: column-reverse; padding: 36px 0;`)}
 `
@@ -23,7 +23,7 @@ export const HeroDetailInner = styled.div`
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: 80%;
     ${maxWidth(ScreenSize.Tablet, `max-width: 90%`)}
     ${maxWidth(ScreenSize.Phone, `margin-top: 32px; padding-left: 18px; max-width: 100%;`)}
@@ -46,7 +46,6 @@ export const HeroBtnWrapper = styled.div`
     display: flex;
     margin-top: 12px;
     ${maxWidth(ScreenSize.Tablet, `margin-top: 22px`)}
-    ${minWidth(ScreenSize.Desktop,`max-width: 75%; justify-content: space-between;`)}
 `
 
 export const HeroViewWorkBtn = styled.button`
@@ -56,8 +55,6 @@ export const HeroViewWorkBtn = styled.button`
     border-radius: 22px;
     margin-right: 32px;
     font-family: 'Poppins';
-    cursor: pointer;
-    ${minWidth(ScreenSize.Desktop,`margin-right: 0px`)}
     ${maxWidth(
     ScreenSize.TabletLandscape,
     `

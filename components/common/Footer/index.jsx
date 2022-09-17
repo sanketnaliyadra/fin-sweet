@@ -48,10 +48,10 @@ const Footer = () => {
                             <NavList>
                                 <ListItem><Link href='/'><a>Home</a></Link></ListItem>
                                 <ListItem><Link href='about-us'><a>About us</a></Link></ListItem>
-                                <ListItem><Link href=''><a>Features</a></Link></ListItem>
-                                <ListItem><Link href=''><a>Pricing</a></Link></ListItem>
+                                <ListItem><Link href='/features'><a>Features</a></Link></ListItem>
+                                <ListItem><Link href='/pricing'><a>Pricing</a></Link></ListItem>
                                 <ListItem><Link href=''><a>FAQ</a></Link></ListItem>
-                                <ListItem><Link href=''><a>Blog</a></Link></ListItem>
+                                <ListItem><Link href='/blog'><a>Blog</a></Link></ListItem>
                             </NavList>
                         </FooterNavigationWrapper>
                     </FooterNavInner>

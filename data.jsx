@@ -233,3 +233,115 @@ export const teamProfileData = [
         role: 'Project Manager'
     }
 ]
+
+export const pricingPlanData = [
+    {
+        id:'1',
+        price: '$299',
+        design: 'Per Design',
+        title: 'Landing Page ',
+        detail: 'When you’re ready to go beyond prototyping in Figma,',
+        btn: 'Get started',
+        benefitPoint: ['All limited links',
+        'Own analytics platform',
+        'Chat support',
+        'Optimize hashtags',
+        'Unlimited users']
+    },
+    {
+        id:'2',
+        price: '$399',
+        design: 'Multi Design',
+        title: 'Website Page',
+        detail: 'When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help.',
+        benefitPoint: ['All limited links',
+        'Own analytics platform',
+        'Chat support',
+        'Optimize hashtags',
+        'Unlimited users'],
+        btn: 'Get started'
+    },
+    {
+        id:'3',
+        price: '$499 +',
+        design: 'Per Design',
+        title: 'Complex Project',
+        detail: 'When you’re ready to go beyond prototyping in Figma,',
+        benefitPoint: ['All limited links',
+        'Own analytics platform',
+        'Chat support',
+        'Optimize hashtags',
+        'Unlimited users','Assist and Help'],
+        btn: 'Get started'
+    }
+]
+
+export const featureCardData = [
+    {
+        id: '1',
+        title: 'Use Client-first',
+        heading: 'Top agencies and freelancers around the world use Client-first',
+        subHeading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+        img: '/features/fuser1.png'
+    },
+    {
+        id: '2',
+        title: 'Free Revision Rounds',
+        heading: 'Get free Revisions and one week of free maintenance',
+        subHeading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+        img: '/features/fuser2.png'
+    },
+    {
+        id: '3',
+        title: '24/7 Support',
+        heading: 'Working with us, you will be getting 24/7 priority support',
+        subHeading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+        img: '/features/fuser3.png'
+    },
+    {
+        id: '4',
+        title: 'Quick Delivery',
+        heading: 'Guranteed 1 week delivery for standard five pager website',
+        subHeading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+        img: '/features/fuser4.png'
+    }
+]
+
+export const portfolioData = [
+    {
+        id: '1',
+        url: '/work/work1.png',
+        title: 'Template 1',
+        description: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
+    },
+    {
+        id: '2',
+        url: '/work/work2.png',
+        title: 'Template 2',
+        description: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
+    },
+    {
+        id: '3',
+        url: '/work/work3.png',
+        title: 'Template 3',
+        description: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
+    },
+    {
+        id: '4',
+        url: '/work/work4.png',
+        title: 'Template 4',
+        description: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
+    },
+    {
+        id: '5',
+        url: '/work/work5.png',
+        title: 'Template 5',
+        description: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
+    },
+    {
+        id: '6',
+        url: '/work/work6.png',
+        title: 'Template 6',
+        description: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
+    }
+]

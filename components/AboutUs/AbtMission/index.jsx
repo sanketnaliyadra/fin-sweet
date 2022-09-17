@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { processMissionData } from '../../../data';
+import { featureCardData } from '../../../data';
 import { AbtMissionMainContainer, AbtMissionSection, DetailWrapper, MissionCardWrapper, MissionHeading, MissionImgWrapper, MissionSubHeading, MissionTitle } from './style'
 
 const AbtMission = () => {
@@ -8,7 +8,7 @@ const AbtMission = () => {
         <AbtMissionSection>
             <div className="container">
                 <AbtMissionMainContainer>
-                    {processMissionData && processMissionData.map((ele, i) => {
+                    {featureCardData && featureCardData.map((ele, i) => {
                         return (
                             <>
                                 <MissionCardWrapper>

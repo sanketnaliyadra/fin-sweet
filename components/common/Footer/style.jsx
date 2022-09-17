@@ -29,7 +29,7 @@ export const FooterLogoContainer  = styled.div`
     max-width: 70%;
     ${maxWidth(ScreenSize.Phone,`max-width: 100%;
     span:nth-child(1){
-        display: block;
+        display: block !important;
     }
     `)}
 `
@@ -139,6 +139,10 @@ export const ListItem = styled.li`
     cursor: pointer;
     list-style: none;
     padding: 0 16px;
-    ${maxWidth(ScreenSize.Tablet,`color: #fff; font-size: 18px; line-height: 2`)}
-    ${maxWidth(ScreenSize.Phone,`color: #fff; font-size: 16px; font-weight: 300 line-height: 2`)}
+    ${maxWidth(ScreenSize.Tablet,`color: #fff; font-size: 18px; line-height: 2;`)}
+    ${maxWidth(ScreenSize.Phone,`color: #fff; font-size: 16px; font-weight: 300 line-height: 2;
+    a{
+        color: white;
+    }
+    `)}
 `
