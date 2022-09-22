@@ -20,7 +20,7 @@ const HeroSection = () => {
                         </HeroDetailInner>
                     </HeroDetailWrapper>
                     <HeroBgImage>
-                        <Image src='/home/header-bg.svg' width='638px' height='362px' layout='responsive' />
+                        <Image src='/home/header-bg.svg' width='638px' height='362px' layout='responsive' alt='img'/>
                     </HeroBgImage>
                 </HeroInnerContainer>
             </div>

@@ -13,7 +13,7 @@ const AbtBenefits = () => {
                         return (
                             <BenefitCard key={i}>
                                 <BenefitCardInner>
-                                    <Image src={ele.image} width={32} height={32} />
+                                    <Image src={ele.image} width={32} height={32} alt='img'/>
                                     <BenefitCardTitle>{ele.title}</BenefitCardTitle>
                                     <BenefitCardDetail>{ele.detail}</BenefitCardDetail>
                                 </BenefitCardInner>
@@ -29,7 +29,7 @@ const AbtBenefits = () => {
                     <FirmImgWrapper>
                         {abtBenefitImgData && abtBenefitImgData.map((ele,i) => {
                             return(
-                                <Image src={ele.img} width={136} height={32} />
+                                <Image key={i} src={ele.img} width={136} height={32} alt='img'/>
                                 )
                         })}
                     </FirmImgWrapper>

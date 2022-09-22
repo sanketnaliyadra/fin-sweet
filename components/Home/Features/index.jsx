@@ -18,7 +18,7 @@ const Features = () => {
               return (
                 <FeatureCard key={i}>
                   <FeatureCardInner>
-                    <Image src={ele.image} width={32} height={32} />
+                    <Image src={ele.image} width={32} height={32} alt='img'/>
                     <FeatureCardTitle>{ele.title}</FeatureCardTitle>
                     <FeatureCardDetail>{ele.detail}</FeatureCardDetail>
                   </FeatureCardInner>

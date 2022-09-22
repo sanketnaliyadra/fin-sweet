@@ -13,7 +13,7 @@ const Blogs = () => {
           {blogData && blogData.map((ele, i) => {
             return (
               <BlogCard key={i}>
-                <Image src={ele.url} width={405} height={285} />
+                <Image src={ele.url} width={405} height={285} alt='img'/>
                 <BlogDate>{ele.date}</BlogDate>
                 <BlogTitle>{ele.title}</BlogTitle>
                 <BlogContent>{ele.content}</BlogContent>

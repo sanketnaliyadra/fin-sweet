@@ -10,18 +10,16 @@ const AbtMission = () => {
                 <AbtMissionMainContainer>
                     {featureCardData && featureCardData.map((ele, i) => {
                         return (
-                            <>
-                                <MissionCardWrapper>
+                                <MissionCardWrapper key={i}>
                                     <DetailWrapper>
                                         <MissionTitle>{ele.title}</MissionTitle>
                                         <MissionHeading>{ele.heading}</MissionHeading>
                                         <MissionSubHeading>{ele.subHeading}</MissionSubHeading>
                                     </DetailWrapper>
                                     <MissionImgWrapper>
-                                        <Image src={ele.img} width={515} height={336} />
+                                        <Image src={ele.img} width={515} height={336} alt='img'/>
                                     </MissionImgWrapper>
                                 </MissionCardWrapper>
-                            </>
                         )
                     })}
                 </AbtMissionMainContainer>

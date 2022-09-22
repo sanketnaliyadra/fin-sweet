@@ -25,9 +25,7 @@ const PortfolioDetails = () => {
       <div className='WorkContainer'>
         {projectIndex && projectIndex.map((data,i) => {
           return (
-            <>
             <CaseStudiesHeroSection key={i} {...data}/>
-            </>
           )
         })}
       <AbtTheProject/>

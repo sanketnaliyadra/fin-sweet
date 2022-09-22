@@ -22,7 +22,7 @@ const PricingPlanning = () => {
                                 <BenefitPoint>
                                     {ele.benefitPoint && ele.benefitPoint.map((data, i) => {
                                         return (
-                                            <PointWrapper>
+                                            <PointWrapper key={i}>
                                                 <BsFillPlayFill />
                                                 <BenefitTitle>{data}</BenefitTitle>
                                             </PointWrapper>

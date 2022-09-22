@@ -20,7 +20,7 @@ const WorkStrategy = () => {
                         {WorkStrategyData && WorkStrategyData.map((ele, i) => {
                             return (
                                 <WorkContentInner key={i}>
-                                    <Image src={ele.image} width='50px' height='50px' />
+                                    <Image src={ele.image} width='50px' height='50px' alt='img'/>
                                     <WorkContentTitle>{ele.title}</WorkContentTitle>
                                     <WorkContentDetail>{ele.detail}</WorkContentDetail>
                                 </WorkContentInner>

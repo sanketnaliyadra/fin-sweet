@@ -12,10 +12,10 @@ const ViewProject = () => {
             <CustomArrBtn title='View More' color='#282938'/>
           </ProjectTitleWrapper>
           <ProjectImageWrapper>
-            <Image src='/home/card1.png' width='843px' height='600px'/>
+            <Image src='/home/card1.png' width='843px' height='600px' alt='img'/>
             <ProjectImageInnerWrapper>
-            <Image src='/home/card2.png' width='405px' height='284px'/>
-            <Image src='/home/card3.png' width='405px' height='284px'/>
+            <Image src='/home/card2.png' width='405px' height='284px' alt='img'/>
+            <Image src='/home/card3.png' width='405px' height='284px' alt='img'/>
             </ProjectImageInnerWrapper>
           </ProjectImageWrapper>
       </ViewProjectSection>

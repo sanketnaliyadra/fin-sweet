@@ -10,7 +10,7 @@ const CaseStudiesHeroSection = ({mainTitle,title,description,url,service,deliver
                     <CStudyMainTitle>{mainTitle}</CStudyMainTitle>
                     <CStudyTitle>{title}</CStudyTitle>
                     <CStudyDescription>{description}</CStudyDescription>
-                    <Image src={url} height={641} width={1063} />
+                    <Image src={url} height={641} width={1063} alt='img'/>
                     <ProjectMetaData>
                         <ClientDetailsWrapper>
                             <ClientTitle>Client</ClientTitle>

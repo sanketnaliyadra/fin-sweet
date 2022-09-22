@@ -18,7 +18,7 @@ const GlobalNavbar = () => {
           <div className={styles.menuIcon} onClick={handleClick}>
             {active ? <AiOutlineClose /> : <FaBars />}
           </div>
-          <Link href="/"><a><Image src='/home/logo.svg' width={120} height={40} /></a></Link>
+          <Link href="/"><a><Image src='/home/logo.svg' width={120} height={40} alt='img'/></a></Link>
           <div className={styles.NavListContainer}>
             <ul className={active ? (styles.navMenu + ' ' + styles.active) : styles.navMenu}>
               <NavListItem><Link href='/'><a>Home</a></Link></NavListItem>

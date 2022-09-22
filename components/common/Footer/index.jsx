@@ -14,7 +14,7 @@ const Footer = () => {
                 <FooterTopSection>
                     <FooterLeftContainer>
                         <FooterLogoContainer>
-                            <Image src='/home/logo.svg' width={160} height={33} />
+                            <Image src='/home/logo.svg' width={160} height={33} alt='img'/>
                             <LeftDescription>We are always open to discuss your project and improve your online presence.</LeftDescription>
                         </FooterLogoContainer>
                         <FooterContactWrapper>

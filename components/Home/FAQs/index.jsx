@@ -17,9 +17,7 @@ const FAQs = () => {
                 <FAQsAccordianContainer>
                     {FAQsData && FAQsData.map((data, i) => {
                         return (
-                            <>
-                                <CustomAccordian title={data.title} content={data.content} id={data.id} />
-                            </>
+                                <CustomAccordian key={i} title={data.title} content={data.content} id={data.id} />
                         )
                     })}
                 </FAQsAccordianContainer>

@@ -8,7 +8,7 @@ const CustomWorkCard = ({url,title,description,btnTitle,id}) => {
     return (
         <WorkCard>
             <WorkImgWrapper>
-                <Image src={url} width={545} height={317} />
+                <Image src={url} width={545} height={317} alt='img'/>
             </WorkImgWrapper>
             <WorkCardTitle>{title}</WorkCardTitle>
             <WorkCardDescription>{description}</WorkCardDescription>

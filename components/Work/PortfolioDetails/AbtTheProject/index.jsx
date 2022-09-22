@@ -13,7 +13,7 @@ const AbtTheProject = () => {
                 <AbtProjectListItem>Duis aute irure dolor in reprehenderit in voluptate velit esse</AbtProjectListItem>
                 <AbtProjectListItem>Excepteur sint occaecat cupidatat non proident, sunt in culpa</AbtProjectListItem>
             </AbtProjectList>
-            <Image src='/caseStudies/img1.png' height={508} width={842} />
+            <Image src='/caseStudies/img1.png' height={508} width={842} alt='img'/>
             <HowWeDoWrapper>
                 <HowWeDoTitle>How we do it</HowWeDoTitle>
                 <HowWeDoDescription>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</HowWeDoDescription>
@@ -26,7 +26,7 @@ const AbtTheProject = () => {
             </HowWeDoWrapper>
             <hr />
             <ProjectKeyImgWrapper>
-                <Image src='/caseStudies/keyword.png' height={36} width={945} />
+                <Image src='/caseStudies/keyword.png' height={36} width={945} alt='img'/>
             </ProjectKeyImgWrapper>
             <hr />
         </AbtProjectSection>
