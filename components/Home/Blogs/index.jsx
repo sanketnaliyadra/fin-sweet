@@ -12,7 +12,7 @@ const Blogs = () => {
         <BlogContainer>
           {blogData && blogData.map((ele, i) => {
             return (
-              <BlogCard>
+              <BlogCard key={i}>
                 <Image src={ele.url} width={405} height={285} />
                 <BlogDate>{ele.date}</BlogDate>
                 <BlogTitle>{ele.title}</BlogTitle>

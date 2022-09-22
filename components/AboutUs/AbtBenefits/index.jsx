@@ -11,7 +11,7 @@ const AbtBenefits = () => {
                 <BenefitCardContainer>
                     {abtBenefitData && abtBenefitData.map((ele, i) => {
                         return (
-                            <BenefitCard>
+                            <BenefitCard key={i}>
                                 <BenefitCardInner>
                                     <Image src={ele.image} width={32} height={32} />
                                     <BenefitCardTitle>{ele.title}</BenefitCardTitle>

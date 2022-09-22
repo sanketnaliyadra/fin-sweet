@@ -12,7 +12,7 @@ const PricingPlanning = () => {
                 <PricePlanCardContainer>
                     {pricingPlanData && pricingPlanData.map((ele, i) => {
                         return (
-                            <PricingCard>
+                            <PricingCard key={i}>
                                 <PriceWrapper>
                                     <PriceNum>{ele.price}</PriceNum>
                                     <PriceDesign>{ele.design}</PriceDesign>

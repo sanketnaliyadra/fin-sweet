@@ -7,7 +7,7 @@ const WorkContact = () => {
         <div className='container'>
             <WorkContactContainer>
                 <WorkContactInner>
-                    <WContactTitle>Let's build something great together</WContactTitle>
+                    <WContactTitle>Let build something great together</WContactTitle>
                     <WContactDescription>Nullam vitae purus at tortor mattis dapibus. Morbi purus est, ultricies nec dolor sit amet, scelerisque cursus purus.</WContactDescription>
                     <WContactBtn><Link href='/contact-us'><a>Contact Us</a></Link></WContactBtn>
                 </WorkContactInner>

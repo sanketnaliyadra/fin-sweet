@@ -12,7 +12,7 @@ const AbtTeam = () => {
                 <TeamCardContainer>
                     {teamProfileData && teamProfileData.map((ele,i) => {
                         return (
-                            <TeamCardWrapper>
+                            <TeamCardWrapper key={i}>
                                 <Image src={ele.img} width={150} height={150}/> 
                                 <ProfileName>{ele.name}</ProfileName>
                                 <ProfileRole>{ele.role}</ProfileRole>

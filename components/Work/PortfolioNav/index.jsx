@@ -17,7 +17,6 @@ const PortfolioNavigationContainer = () => {
                 <WorkNavbarWrapper>
                     <WorkNavList>
                         {tabs && tabs.map((tab, index) => {
-                            
                             return (
                                 <>
                                     <WorkListItem key={index} color={tab.value === color ? '#2405F2': null} onClick={() => {setActiveTabIndex(tab.value === 'All' ? portfolioData : portfolioData.filter((ele) => ele.categories === tab.value)); setColor(tab.value)}}>{tab.name}</WorkListItem>
@@ -30,7 +29,7 @@ const PortfolioNavigationContainer = () => {
                 <WorkCardContainer>
                     {activeTabIndex && activeTabIndex.map((ele, i) => {
                         return (
-                            <CustomWorkCard {...ele} />
+                            <CustomWorkCard key={i} {...ele} />
                         )
                     })}
                 </WorkCardContainer>

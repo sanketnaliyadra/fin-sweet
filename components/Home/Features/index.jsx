@@ -16,7 +16,7 @@ const Features = () => {
           <FeatureSubSectionWrapper>
             {FeatureData && FeatureData.map((ele, i) => {
               return (
-                <FeatureCard>
+                <FeatureCard key={i}>
                   <FeatureCardInner>
                     <Image src={ele.image} width={32} height={32} />
                     <FeatureCardTitle>{ele.title}</FeatureCardTitle>
