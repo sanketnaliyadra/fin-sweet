@@ -28,7 +28,7 @@ const GlobalNavbar = () => {
               <NavListItem><Link href=''><a>FAQ</a></Link></NavListItem>
               <NavListItem><Link href='/blog'><a>Blog</a></Link></NavListItem>
             </ul>
-            <NavButton>Contact us</NavButton>
+            <NavButton><Link href='/contact-us'><a>Contact us</a></Link></NavButton>
           </div>
         </NavbarWrapper>
       </div>

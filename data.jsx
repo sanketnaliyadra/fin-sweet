@@ -309,39 +309,115 @@ export const featureCardData = [
 
 export const portfolioData = [
     {
-        id: '1',
+        id: 1,
         url: '/work/work1.png',
         title: 'Template 1',
+        btnTitle: 'View Portfolio',
+        categories: 'UI',
         description: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
     },
     {
-        id: '2',
+        id: 2,
         url: '/work/work2.png',
         title: 'Template 2',
+        btnTitle: 'View Portfolio',
+        categories: 'UI',
         description: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
     },
     {
-        id: '3',
+        id: 3,
         url: '/work/work3.png',
         title: 'Template 3',
+        btnTitle: 'Read case study',
+        categories: 'webflow',
         description: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
     },
     {
-        id: '4',
+        id: 4,
         url: '/work/work4.png',
         title: 'Template 4',
+        btnTitle: 'Read case study',
+        categories: 'webflow',
         description: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
     },
     {
-        id: '5',
+        id: 5,
         url: '/work/work5.png',
         title: 'Template 5',
+        btnTitle: 'Read case study',
+        categories: 'figma',
         description: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
     },
     {
-        id: '6',
+        id: 6,
         url: '/work/work6.png',
         title: 'Template 6',
+        btnTitle: 'Read case study',
+        categories: 'figma',
         description: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
     }
+]
+
+export const caseStudiesData = [
+    {   
+        id: 1,
+        mainTitle: 'UI Design',
+        title: 'Finsweet Design case studies',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.',
+        url: '/work/wwork1.png',
+        service: 'Product Design',
+        deliverable: 'UI Screens, UX Flow & Prototype',
+        projectUrl : '/caseStudies/img1.png'
+    },
+    {   
+        id: 2,
+        mainTitle: 'Web design and development',
+        title: 'Finsweet Design case studies',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.',
+        url: '/work/work2.png',
+        service: 'Product Design',
+        deliverable: 'UI Screens, UX Flow & Prototype',
+        projectUrl : '/caseStudies/img1.png'
+    },
+    {   
+        id: 3,
+        mainTitle: 'Web design and development',
+        title: 'Finsweet Design case studies',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.',
+        url: '/work/work3.png',
+        service: 'Product Design',
+        deliverable: 'UI Screens, UX Flow & Prototype',
+        projectUrl : '/caseStudies/img1.png'
+    },
+    {   
+        id: 4,
+        mainTitle: 'Web design and development',
+        title: 'Finsweet Design case studies',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.',
+        url: '/work/work4.png',
+        service: 'Product Design',
+        deliverable: 'UI Screens, UX Flow & Prototype',
+        projectUrl : '/caseStudies/img1.png'
+    },
+    {   
+        id: 5,
+        mainTitle: 'Web design and development',
+        title: 'Finsweet Design case studies',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.',
+        url: '/work/work5.png',
+        service: 'Product Design',
+        deliverable: 'UI Screens, UX Flow & Prototype',
+        projectUrl : '/caseStudies/img1.png'
+    },
+    {   
+        id: 6,
+        mainTitle: 'Web design and development',
+        title: 'Finsweet Design case studies',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.',
+        url: '/work/work6.png',
+        service: 'Product Design',
+        deliverable: 'UI Screens, UX Flow & Prototype',
+        projectUrl : '/caseStudies/img1.png'
+    }
+
 ]

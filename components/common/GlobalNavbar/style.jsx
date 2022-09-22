@@ -62,11 +62,14 @@ export const NavListItem = styled.li`
 `
 
 export const NavButton = styled.button`
-    color: var(--white);
     background: transparent;
     font-family: 'Poppins';
     padding: 12px 30px;
     border: 1px solid var(--Btn-border);
     border-radius: 24px;
-    cursor: pointer;
+    a{
+        text-decoration: none;
+        color: var(--white);
+        cursor: pointer;
+    }
 `
