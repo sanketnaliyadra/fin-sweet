@@ -12,7 +12,7 @@ const AboutHeroSection = () => {
           <AboutSubHeading>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</AboutSubHeading>
         </AboutHeadDetailWrapper>
         <AboutHeroImgWrapper>
-          <Image src='/AboutUs/about-main.png' width={547} height={336} alt='img'/>
+          <Image src='/AboutUs/aboutmain.png' width={547} height={336} alt='img'/>
         </AboutHeroImgWrapper>
       </AboutHeroSectionContainer>
     </div>

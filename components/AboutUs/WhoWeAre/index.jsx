@@ -19,7 +19,7 @@ const WhoWeAre = () => {
                     </DesRightContainer>
                 </AbtDescriptionSection>
                 <AbtBgImgWrapper>
-                    <Image src='/AboutUs/about-bg.png' width={1280} height={340} alt='img'/>
+                    <Image src='/AboutUs/aboutbg.png' width={1280} height={340} alt='img'/>
                 </AbtBgImgWrapper>
                 <AboutProcessContainer>
                     <ProcessHeading>The process we follow</ProcessHeading>

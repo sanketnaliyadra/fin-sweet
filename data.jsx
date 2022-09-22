@@ -160,14 +160,14 @@ export const processMissionData = [
         title: 'Our Mission',
         heading: 'Inspire, Innovate, Share',
         subHeading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        img: '/AboutUs/abt-mission.png'
+        img: '/AboutUs/abtmission.png'
     },
     {
         id: '2',
         title: 'Our Vision',
         heading: 'Laser focus',
         subHeading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        img: '/AboutUs/abt-vision.png'
+        img: '/AboutUs/abtvision.png'
     },
 ]
 export const abtBenefitData = [
