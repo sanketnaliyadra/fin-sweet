@@ -6,7 +6,6 @@ import { BlogCard, BlogContainer, BlogContent, BlogDate, BlogMainTitle, BlogSect
 
 const MultipleBlogs = () => {
   return (
-    <div className="container">
       <BlogSection>
         <BlogMainTitle>Our blog</BlogMainTitle>
         <BlogContainer>
@@ -24,7 +23,6 @@ const MultipleBlogs = () => {
           )}
         </BlogContainer>
       </BlogSection>
-    </div>
   )
 }
 
