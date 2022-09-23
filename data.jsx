@@ -23,32 +23,32 @@ export const WorkStrategyData = [
 
 export const FeatureData = [
     {
-        image: '/home/icon1.svg',
+        image: '/home/clientfirst.svg',
         title: 'Uses Client First',
         detail: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.'
     },
     {
-        image: '/home/icon2.svg',
+        image: '/home/revision.svg',
         title: 'Two Free Revision Round',
         detail: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.'
     },
     {
-        image: '/home/icon3.svg',
+        image: '/home/customization.svg',
         title: 'Template Customization',
         detail: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.'
     },
     {
-        image: '/home/icon4.svg',
+        image: '/home/support.svg',
         title: '24/7 Support',
         detail: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.'
     },
     {
-        image: '/home/icon5.svg',
+        image: '/home/delivery.svg',
         title: 'Quick Delivery',
         detail: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.'
     },
     {
-        image: '/home/icon6.svg',
+        image: '/home/approach.svg',
         title: 'Hands-on approach',
         detail: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.'
     }
@@ -172,17 +172,17 @@ export const processMissionData = [
 ]
 export const abtBenefitData = [
     {
-        image: '/home/icon6.svg',
+        image: '/home/approach.svg',
         title: 'Customize with ease',
         detail: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.'
     },
     {
-        image: '/home/icon3.svg',
+        image: '/home/customization.svg',
         title: 'Perfectly Responsive',
         detail: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.'
     },
     {
-        image: '/home/icon1.svg',
+        image: '/home/clientfirst.svg',
         title: 'Friendly Support',
         detail: 'Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.'
     }
@@ -420,4 +420,49 @@ export const caseStudiesData = [
         projectUrl : '/caseStudies/img1.png'
     }
 
+]
+
+export const MultipleBlogData = [
+    {
+        id: '1',
+        url: '/blog/ablog.png',
+        date: '27 jan 2022',
+        title: 'How one Webflow user grew his single person consultancy from $0-100K in 14 months',
+        content: 'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'
+    },
+    {
+        id: '2',
+        url: '/blog/bblog.png',
+        date: '19 sep 2022',
+        title: 'How one Webflow user grew his single person consultancy from $0-100K in 14 months',
+        content: 'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'
+    },
+    {
+        id: '3',
+        url: '/blog/cblog.png',
+        date: '12 may 2022',
+        title: 'How one Webflow user grew his single person consultancy from $0-100K in 14 months',
+        content: 'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'
+    },
+    {
+        id: '4',
+        url: '/blog/dblog.png',
+        date: '5 feb 2022',
+        title: 'How one Webflow user grew his single person consultancy from $0-100K in 14 months',
+        content: 'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'
+    },
+    {
+        id: '5',
+        url: '/blog/eblog.png',
+        date: '8 june 2022',
+        title: 'How one Webflow user grew his single person consultancy from $0-100K in 14 months',
+        content: 'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'
+    },
+    {
+        id: '6',
+        url: '/blog/fblog.png',
+        date: '19 jan 2022',
+        title: 'How one Webflow user grew his single person consultancy from $0-100K in 14 months',
+        content: 'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'
+    }
 ]

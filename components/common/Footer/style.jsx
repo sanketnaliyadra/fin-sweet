@@ -10,13 +10,13 @@ export const FooterTopSection = styled.div`
     color: white;
     display: flex;
     padding-top: 66px;
-    ${maxWidth(ScreenSize.Phone,`flex-direction: column`)}
+    ${maxWidth(ScreenSize.Phone,`flex-direction: column; padding-top: 40px`)}
     `
 export const FooterBottomSection = styled.div`
     padding: 22px 0;
     color: var(--font-color);
     background: var(--white);
-    ${maxWidth(ScreenSize.Phone,`background: var(--finPrimary);`)}
+    ${maxWidth(ScreenSize.Phone,`background: var(--finPrimary); padding: 0 0 12px 0`)}
 `
 export const FooterLeftContainer = styled.div`
     flex: 1;
@@ -28,8 +28,8 @@ export const FooterLeftContainer = styled.div`
 export const FooterLogoContainer  = styled.div`
     max-width: 70%;
     ${maxWidth(ScreenSize.Phone,`max-width: 100%;
-    span:nth-child(1){
-        display: block !important;
+    img{
+        min-width:  90% !important;
     }
     `)}
 `
@@ -38,11 +38,11 @@ export const LeftDescription = styled.p`
     font-size: 14px;
     font-weight: 400;
     opacity: 80%;
-    ${maxWidth(ScreenSize.Phone,`text-align: center`)};
 `
 export const FooterContactWrapper = styled.div`
     display: flex;
     justify-content: space-between;
+    row-gap: 12px;
     max-width: 80%;
     background: var(--btn-bg);
     padding: 12px 24px;
@@ -89,13 +89,14 @@ export const FooterRightContainer = styled.div`
     ${maxWidth(ScreenSize.Phone,`margin: 18px`)}
 `
 export const SocialTitle = styled.h2`
-    ${maxWidth(ScreenSize.Phone,`text-align: center; font-weight: 500; font-size: 32px;`)}
+    ${maxWidth(ScreenSize.Phone,` font-weight: 500; font-size: 32px;`)}
 `
 export const SocialDescription = styled.p`
     margin: 24px 0;
     font-size: 14px;
     font-weight: 400;
     opacity: 80%;
+    ${maxWidth(ScreenSize.Phone,`margin: 12px 0 22px 0`)}
 `
 export const SocialIconWrapper = styled.div`
     max-width: 25%;
@@ -107,7 +108,7 @@ export const SocialIconWrapper = styled.div`
       ${minWidth( ScreenSize.Phone, `max-width: 40%`)}
     `
     )};
-    ${maxWidth(ScreenSize.Phone,`max-width: 60%`)}
+    ${maxWidth(ScreenSize.Phone,`max-width: 60%; margin: 0 auto;`)}
 
 `
 export const FooterNavInner = styled.div`
@@ -124,7 +125,7 @@ export const CopyrightWrapper = styled.p`
 
 `
 export const FooterNavigationWrapper = styled.div`
-    
+    ${maxWidth(ScreenSize.Phone,`padding-bottom: 8px; border-bottom: 1px solid white;`)}
 `
 export const NavList = styled.ul`
     display: flex;

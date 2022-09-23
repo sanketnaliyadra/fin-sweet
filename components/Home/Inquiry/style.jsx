@@ -55,6 +55,9 @@ export const FormDescription = styled.p`
 export const FormWrapper = styled.div`
     display: flex;
     flex-direction: column ;
+    a{
+        text-align: center;
+    }
 `
 export const FormInput = styled.input`
     color: var(--white);

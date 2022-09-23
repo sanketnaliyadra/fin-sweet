@@ -15,7 +15,7 @@ const HeroSection = () => {
                             <HeroSubHeading>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</HeroSubHeading>
                             <HeroBtnWrapper>
                                 <Link href="/work"><a><HeroViewWorkBtn >View our work</HeroViewWorkBtn></a></Link>
-                                <CustomArrBtn title='View Pricing' color='#ffffff' />
+                                <Link href='/pricing'><a><CustomArrBtn title='View Pricing' color='#ffffff' /></a></Link>
                             </HeroBtnWrapper>
                         </HeroDetailInner>
                     </HeroDetailWrapper>

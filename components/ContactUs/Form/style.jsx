@@ -1,11 +1,14 @@
 import styled from "styled-components";
 import { FontNormal, FontOpacity } from "../../../utils/fontStyle";
+import { maxWidth } from "../../../utils/responsive/maxWidth";
+import { ScreenSize } from "../../../utils/responsive/ScreenSize";
 
 export const ContactFormSectionWrap = styled.div`
     margin: 80px auto;
     display: flex ;
     flex-direction: column;
     max-width: 70%;
+    ${maxWidth(ScreenSize.Tablet,`margin: 40px auto; max-width: 100%`)}
 `;
 export const ContactTitle = styled.h2`
     ${FontNormal}
@@ -16,11 +19,14 @@ export const ContactDescription = styled.p`
     text-align: center;
     max-width: 70%;
     margin: 0 auto;
+    ${maxWidth(ScreenSize.Tablet,`max-width: 100%;`)}
 `
 export const FormWrapper = styled.div`
     background: var(--container-bg);
     padding: 48px;
     border-radius: 8px;
+    margin-top: 32px;
+    ${maxWidth(ScreenSize.Phone,`margin-top: 12px; padding: 28px`)}
 `
 export const FormInnerWrapper = styled.div`
     display: flex;

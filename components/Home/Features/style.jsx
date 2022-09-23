@@ -17,8 +17,9 @@ export const FeatureContainer = styled.div`
     `)}
 `
 export const FeatureHeading = styled.h4`
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
+    margin-bottom: 8px;
     text-align: center;
     color: var(--font-color);
 `

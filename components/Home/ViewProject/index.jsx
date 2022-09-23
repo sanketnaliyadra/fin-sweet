@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import CustomArrBtn from '../../common/CustomArrowBtn'
 import { ProjectImageInnerWrapper, ProjectImageWrapper, ProjectTitleHeading, ProjectTitleWrapper, ViewProjectSection } from './style'
@@ -9,7 +10,7 @@ const ViewProject = () => {
       <ViewProjectSection>
           <ProjectTitleWrapper>
             <ProjectTitleHeading>View our projects</ProjectTitleHeading>
-            <CustomArrBtn title='View More' color='#282938'/>
+            <Link href='/work'><a><CustomArrBtn title='View More' color='#282938'/></a></Link>
           </ProjectTitleWrapper>
           <ProjectImageWrapper>
             <Image src='/home/card1.png' width='843px' height='600px' alt='img'/>

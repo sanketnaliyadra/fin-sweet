@@ -10,7 +10,7 @@ export const HeroSectionContainer = styled.div`
 `
 export const HeroInnerContainer = styled.div`
     display: flex;
-    padding: 110px 0;
+    padding: 90px 0;
     ${maxWidth(ScreenSize.TabletLandscape, `padding: 70px 0`)}
     ${maxWidth(ScreenSize.Phone, `flex-direction: column-reverse; padding: 36px 0;`)}
 `

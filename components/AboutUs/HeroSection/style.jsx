@@ -8,7 +8,7 @@ export const AboutHeroSectionContainer = styled.div`
     justify-content: space-between;
     padding: 90px 0;
    ${maxWidth(ScreenSize.Tablet,`padding: 70px 0;`)}
-   ${maxWidth(ScreenSize.Phone,`flex-direction: column-reverse; padding: 44px 0`)}
+   ${maxWidth(ScreenSize.Phone,`flex-direction: column; padding: 0 0 32px 0`)}
 `
 export const AboutHeadDetailWrapper = styled.div`
     display: flex;
@@ -16,7 +16,7 @@ export const AboutHeadDetailWrapper = styled.div`
     max-width: 40%;
     flex-direction: column;
    ${maxWidth(ScreenSize.Tablet,`flex: 1 0 45%; max-width: 45%;`)};
-   ${maxWidth(ScreenSize.Phone,`max-width: 100%; margin-top: 32px; align-items: center;`)};
+   ${maxWidth(ScreenSize.Phone,`max-width: 100%; margin: 28px 0; align-items: center;`)};
 `
 
 export const AboutusHeading = styled.h6`

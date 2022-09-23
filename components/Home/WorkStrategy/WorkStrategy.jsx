@@ -3,6 +3,7 @@ import CustomArrBtn from '../../common/CustomArrowBtn'
 import { WorkStrategyData } from '../../../data'
 import {WorkSection, WorkDetailWrapper, WorkHeading, WorkStrategyContainer, WorkSubHeading, WorkContentWrapper, WorkContentTitle, WorkContentDetail, WorkContentInner, WorkDetailContainer } from './style'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const WorkStrategy = () => {
     return (
@@ -13,7 +14,7 @@ const WorkStrategy = () => {
                         <WorkDetailWrapper>
                             <WorkHeading>How we work</WorkHeading>
                             <WorkSubHeading>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</WorkSubHeading>
-                            <CustomArrBtn title='Get in touch with us' color='#2405F2'></CustomArrBtn>
+                            <Link href='/contact-us'><a><CustomArrBtn title='Get in touch with us' color='#2405F2'></CustomArrBtn></a></Link>
                         </WorkDetailWrapper>
                     </WorkDetailContainer>
                     <WorkContentWrapper>

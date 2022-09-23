@@ -8,7 +8,7 @@ export const AbtBenefitSection = styled.div`
     flex-direction: column;
     padding: 80px 0;
     ${maxWidth(ScreenSize.Tablet,`padding: 60px 0;`)};
-    ${maxWidth(ScreenSize.Phone,`padding: 40px 0;`)};
+    ${maxWidth(ScreenSize.Phone,`padding: 30px 0;`)};
 `
 export const BenefitTitle = styled.h2`
     ${FontPrimaryBold}

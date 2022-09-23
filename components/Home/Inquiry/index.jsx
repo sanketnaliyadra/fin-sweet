@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import CustomArrBtn from '../../common/CustomArrowBtn'
 import { FormBtn, FormDescription, FormInput, FormTitle, FormWrapper, HeadInner, InquiryContainer, InquiryDescription, InquiryFormContainer, InquiryFormInner, InquiryHeadingContainer, InquiryTitle } from './style'
@@ -21,7 +22,7 @@ const Inquiry = () => {
                             <FormInput type="email" placeholder="Email" />
                             <FormInput type="url" placeholder="Paste your Figma design URL" />
                             <FormBtn>Send an Inquiry</FormBtn>
-                            <CustomArrBtn title='Get in touch with us' color='#ffffff' />
+                            <Link href="/contact-us"><a><CustomArrBtn title='Get in touch with us' color='#ffffff' /></a></Link>
                         </FormWrapper>
                     </InquiryFormInner>
                 </InquiryFormContainer>

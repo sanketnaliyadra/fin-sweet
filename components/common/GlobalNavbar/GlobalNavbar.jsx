@@ -25,7 +25,6 @@ const GlobalNavbar = () => {
               <NavListItem><Link href='/about-us'><a>About us</a></Link></NavListItem>
               <NavListItem><Link href='/features'><a>Features</a></Link></NavListItem>
               <NavListItem><Link href='/pricing'><a>Pricing</a></Link></NavListItem>
-              <NavListItem><Link href=''><a>FAQ</a></Link></NavListItem>
               <NavListItem><Link href='/blog'><a>Blog</a></Link></NavListItem>
             </ul>
             <NavButton><Link href='/contact-us'><a>Contact us</a></Link></NavButton>

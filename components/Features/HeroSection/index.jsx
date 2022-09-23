@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { FHeroSection, HeroBgImage, HeroBtnWrapper, HeroDetailInner, HeroDetailWrapper, HeroInnerContainer, HeroSectionHeading, HeroSubHeading, HeroViewWorkBtn } from './style'
 
@@ -12,7 +13,7 @@ const FeatureHeroSection = () => {
                             <HeroSectionHeading>All the features you need</HeroSectionHeading>
                             <HeroSubHeading>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</HeroSubHeading>
                             <HeroBtnWrapper>
-                                <HeroViewWorkBtn>View Pricing</HeroViewWorkBtn>
+                                <Link href='/pricing'><a><HeroViewWorkBtn>View Pricing</HeroViewWorkBtn></a></Link>
                             </HeroBtnWrapper>
                         </HeroDetailInner>
                     </HeroDetailWrapper>

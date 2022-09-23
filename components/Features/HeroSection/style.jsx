@@ -44,6 +44,7 @@ export const HeroSubHeading = styled.p`
 `
 export const HeroBtnWrapper = styled.div`
     display: flex;
+    align-items: center;
     margin-top: 12px;
     ${maxWidth(ScreenSize.Tablet, `margin-top: 22px`)}
 `

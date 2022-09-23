@@ -3,14 +3,12 @@ import { maxWidth } from "../../../utils/responsive/maxWidth";
 import { ScreenSize } from "../../../utils/responsive/ScreenSize";
 
 export const BlogSection = styled.div`
-    padding: 80px 0;
     display: flex;
     flex-direction: column;
-   ${maxWidth(ScreenSize.Phone,`padding: 40px 0`)}
-
 `
 export const BlogMainTitle = styled.h1`
     margin-bottom: 28px;
+    text-align: center;
     font-size: 32px;
     color: var(--font-color);
    ${maxWidth(ScreenSize.Phone,`font-size: 28px; margin-bottom: 24px; text-align: center`)}
@@ -18,16 +16,20 @@ export const BlogMainTitle = styled.h1`
 `
 export const BlogContainer = styled.div`
    display: flex;
-   column-gap: 24px;
-   ${maxWidth(ScreenSize.Phone,`flex-wrap: wrap`)}
+   flex-wrap: wrap;
+   margin-bottom: 50px;
+   column-gap: 22px;
+   row-gap: 32px;
+   ${maxWidth(ScreenSize.Phone,`flex-wrap: wrap; row-gap: 12px; margin-bottom: 24px`)}
 `
 export const BlogCard = styled.div`
      display: flex;
+     flex: 1 0 30%;
     flex-direction: column;
     button {
         text-align: start;
     }
-   ${maxWidth(ScreenSize.Phone,`padding: 12px`)}
+   ${maxWidth(ScreenSize.Phone,`padding: 12px; flex: 1 0 100%;`)}
 `
 export const BlogDate = styled.p`
     color: var(--font-color);

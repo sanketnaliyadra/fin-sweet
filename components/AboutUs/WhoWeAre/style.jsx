@@ -65,7 +65,7 @@ export const ProcessHeading = styled.h2`
 export const ProcessStepContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    ${maxWidth(ScreenSize.Phone,`flex-wrap: wrap`)}
+    ${maxWidth(ScreenSize.Phone,`flex-wrap: wrap; row-gap: 12px`)}
 `
 export const AbtProcessCard = styled.div`
     display: flex;

@@ -32,7 +32,7 @@ export const TeamCardWrapper = styled.div`
     background: var(--white);
     padding: 28px 42px;
     border-radius: 6px;
-    ${maxWidth(ScreenSize.Phone,`flex: 1 0 100%; max-width: 100%; padding: 18px 42px;  margin-bottom: 24px;`)}
+    ${maxWidth(ScreenSize.Phone,`flex: 1 0 80%; max-width: 80%; padding: 18px 42px;  margin: 0 auto 24px auto;`)}
 `
 export const ProfileName = styled.h6`
     ${FontTitleHeading}

@@ -50,7 +50,6 @@ const Footer = () => {
                                 <ListItem><Link href='about-us'><a>About us</a></Link></ListItem>
                                 <ListItem><Link href='/features'><a>Features</a></Link></ListItem>
                                 <ListItem><Link href='/pricing'><a>Pricing</a></Link></ListItem>
-                                <ListItem><Link href=''><a>FAQ</a></Link></ListItem>
                                 <ListItem><Link href='/blog'><a>Blog</a></Link></ListItem>
                             </NavList>
                         </FooterNavigationWrapper>

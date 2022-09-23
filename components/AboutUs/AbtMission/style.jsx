@@ -11,7 +11,7 @@ export const AbtMissionMainContainer = styled.div`
     flex-direction: column;
     padding: 80px 0;
     ${maxWidth(ScreenSize.Tablet,`padding: 60px 0;`)}
-    ${maxWidth(ScreenSize.Phone,`padding: 40px 0;`)}
+    ${maxWidth(ScreenSize.Phone,`padding: 30px 0;`)}
 `
 export const MissionTitle = styled.p`
     font-size: 16px;
@@ -54,5 +54,5 @@ export const DetailWrapper = styled.div`
 export const MissionImgWrapper = styled.div`
     flex: 1 0 40%;
     max-width: 40%;
-    ${maxWidth(ScreenSize.Phone,`max-width: 100%;`)}
+    ${maxWidth(ScreenSize.Phone,`max-width: 90%; margin: 0 auto;`)}
 `
