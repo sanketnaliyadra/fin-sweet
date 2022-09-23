@@ -23,7 +23,7 @@ const GlobalNavbar = () => {
             <ul className={active ? (styles.navMenu + ' ' + styles.active) : styles.navMenu}>
               <NavListItem><Link href='/'><a>Home</a></Link></NavListItem>
               <NavListItem><Link href='/about-us'><a>About us</a></Link></NavListItem>
-              <NavListItem><Link href='/features'><a>Features</a></Link></NavListItem>
+              <NavListItem><Link href='/Features'><a>Features</a></Link></NavListItem>
               <NavListItem><Link href='/pricing'><a>Pricing</a></Link></NavListItem>
               <NavListItem><Link href='/blog'><a>Blog</a></Link></NavListItem>
             </ul>

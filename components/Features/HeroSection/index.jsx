@@ -18,7 +18,7 @@ const FeatureHeroSection = () => {
                         </HeroDetailInner>
                     </HeroDetailWrapper>
                     <HeroBgImage>
-                        <Image src='/features/featurebg.svg' width={638} alt='img' height={409} layout='responsive' />
+                        <Image src='/Features/featurebg.svg' width={638} alt='img' height={409} layout='responsive' />
                     </HeroBgImage>
                 </HeroInnerContainer>
             </div>

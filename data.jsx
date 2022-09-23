@@ -282,28 +282,28 @@ export const featureCardData = [
         title: 'Use Client-first',
         heading: 'Top agencies and freelancers around the world use Client-first',
         subHeading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
-        img: '/features/fuser1.png'
+        img: '/Features/client.png'
     },
     {
         id: '2',
         title: 'Free Revision Rounds',
         heading: 'Get free Revisions and one week of free maintenance',
         subHeading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-        img: '/features/fuser2.png'
+        img: '/Features/maintain.png'
     },
     {
         id: '3',
         title: '24/7 Support',
         heading: 'Working with us, you will be getting 24/7 priority support',
         subHeading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
-        img: '/features/fuser3.png'
+        img: '/Features/working.png'
     },
     {
         id: '4',
         title: 'Quick Delivery',
         heading: 'Guranteed 1 week delivery for standard five pager website',
         subHeading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
-        img: '/features/fuser4.png'
+        img: '/Features/delivery.png'
     }
 ]
 
